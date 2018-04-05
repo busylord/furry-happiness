@@ -133,4 +133,6 @@ STATIC_ROOT = BASE_DIR + '/static/'
 #
 
 SITE_HEADER = os.environ.get('SITE_HEADER', 'Success Plus Dashboard')
+SITE_TITLE  = os.environ.get('SITE_TITLE', 'SUCCESS+ for teams')
+INDEX_TITLE = os.environ.get('INDEX_TITLE', 'Manage Tasks')
 LOGOUT_REDIRECT_URL = '/'
